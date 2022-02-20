@@ -340,7 +340,8 @@ hr {
 /******  Cart  ******/
 
 .shopping-cart-section {
-  padding: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .cart-header {
@@ -353,7 +354,7 @@ hr {
   border-bottom: 1px solid black;
   margin-right: 1.5em;
   padding-bottom: 10px;
-  margin-top: 2%;
+  margin-top: 0.6em;
 }
 
 .cart-row {
