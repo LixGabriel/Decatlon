@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../styles/style.css">
+        
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/09ff76b255.js" crossorigin="anonymous"></script>
+        
+    <!-- FAVICON -->
+    <link rel="icon" href="../images/favicon.ico">
+  </head>
+
+
+  <body>
+
+    <!----------  *****  Navigation Bar  *****  ---------->
+    <div id="navig-bar">
+
+      <!--- Nav Bar --->
+      <div class="container-fluid navigation-bar">
+        <header class="header d-flex flex-wrap justify-content-center py-0 mb-4">
+          <a href="../index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <div class="fs-2 logo">DECATLON</div></a>
+            
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="../index.html" class="nav-link"><i class="nav-icon fa-solid fa-house"></i>&nbsp <span class="nav-text">Acasa</span></a></li>
+            <li class="nav-item"><a href="./produse.html" class="nav-link"><i class="nav-icon fas fa-tshirt"></i>&nbsp <span class="nav-text">Produse</span></a></li>
+            <li class="nav-item"><a href="./locatii.html" class="nav-link"><i class="nav-icon fas fa-map-marker-alt"></i>&nbsp <span class="nav-text">Locatii</span></a></li>
+            <li class="nav-item"><a href="./contact.html" class="nav-link"><i class="nav-icon fas fa-phone"></i>&nbsp <span class="nav-text">Contact</span></a></li>
+            <li class="nav-item"><a href="./faq.html" class="nav-link"><i class="nav-icon fas fa-question-circle"></i>&nbsp <span class="nav-text">FAQ</span></a></li>
+          </ul>
+
+        </header>
+      </div>
+
+    </div>
+
+
+    <!----------  *****  Date Contact  *****  ---------->
+    <section id="date-contact">
+
+      <h1>CONTACT</h1>
+      
+      <div class="telefon"><i class="fas fa-phone"></i>&nbsp 021 408 5005</div>
+      <div class="program">Luni - Vineri: &nbsp 09:00 - 20:00</div>
+      <div class="program">Sambata - Duminica: &nbsp 10:00 - 19:00</div>
+
+    </section>
+
+
+
+    <!----------  *****  Formular  *****  ---------->
+    <section id="formular-contact">
+
+      <h2 class="formular-title">LASA-NE UN MESAJ!</h2>
+
+      <!-- Form -->
+      <form class="formular">
+
+        <label for="name">Nume:</label><br/>
+        <input type="text" id="name" name="name" minlength="3"><br/>
+
+        <label for="email">Email:</label><br/>
+        <input type="email" id="email" name="email"><br/>
+
+        <label for="mesaj">Mesaj:</label><br/>
+        <textarea id="mesaj" name="mesaj" rows="4" cols="30" minlength="20" maxlength="200"></textarea><br/><br/>
+
+        <input id="buton" type="submit" value="Submit">
+      </form> 
+
+    </section>
+
+  </body>
+
+  <footer>
+    <div>@Lixandru Liviu-Gabriel</div><br/>
+    <div>Acest website este o replica a site-ului <a href="https://www.decathlon.ro/" target="_blank">decathlon.ro</a> creata in scop educativ.</div>
+  </footer>
+</html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produse</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        
+    <!-- CSS -->
+    <link rel="stylesheet" href="../styles/style.css">
+        
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/09ff76b255.js" crossorigin="anonymous"></script>
+        
+    <!-- FAVICON -->
+    <link rel="icon" href="../images/favicon.ico">
+
+    <!-- JavaScript -->
+    <script src="../script.js" async></script>
+  </head>
+
+
+  <body>
+      
+    <!----------  *****  Navigation Bar  *****  ---------->
+    <div id="navig-bar">
+
+      <!--- Nav Bar --->
+      <div class="container-fluid navigation-bar">
+        <header class="header d-flex flex-wrap justify-content-center py-0 mb-4">
+          <a href="../index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <div class="fs-2 logo">DECATLON</div></a>
+            
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="../index.html" class="nav-link"><i class="nav-icon fa-solid fa-house"></i>&nbsp <span class="nav-text">Acasa</span></a></li>
+            <li class="nav-item"><a href="./produse.html" class="nav-link"><i class="nav-icon fas fa-tshirt"></i>&nbsp <span class="nav-text">Produse</span></a></li>
+            <li class="nav-item"><a href="./locatii.html" class="nav-link"><i class="nav-icon fas fa-map-marker-alt"></i>&nbsp <span class="nav-text">Locatii</span></a></li>
+            <li class="nav-item"><a href="./contact.html" class="nav-link"><i class="nav-icon fas fa-phone"></i>&nbsp <span class="nav-text">Contact</span></a></li>
+            <li class="nav-item"><a href="./faq.html" class="nav-link"><i class="nav-icon fas fa-question-circle"></i>&nbsp <span class="nav-text">FAQ</span></a></li>
+          </ul>
+
+        </header>
+      </div>
+
+    </div>
+
+
+    <!----------  *****  Produse  *****  ---------->
+    <div id="produse">
+
+      <h1>PRODUSE</h1>
+
+
+      <!----------  *****  Cos Cumparaturi  *****  ---------->
+
+      <div class="cart-icon"><i id="buton-cos" class="fas fa-shopping-cart fa-lg"></i>&nbsp Cosul meu</div>
+
+      <div class="container shopping-cart-section">
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">Produse</span>
+            <span class="cart-price cart-header cart-column">Pret</span>
+            <span class="cart-quantity cart-header cart-column">Cantitate</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">TOTAL:</strong>
+            <span class="cart-total-price">0 lei</span>
+        </div>
+        <button class="btn btn-purchase" type="button"><i id="buton-comanda" class="fas fa-shopping-cart"></i>&nbsp COMANDA</button>
+      </div>
+
+
+
+      <!----------  *****  Articole  *****  ---------->
+
+      <section class="articole">
+        
+        <div class="row rand-produse g-0">
+          
+          <div class="col-lg-3 col-md-4 col-sm-6 produs">
+            <img class="imagine-produs" src="../images/produse/ochelari_ski.jpg" alt="First item">
+            <div class="nume-produs">Ochelari Ski</div>
+            <div class="pret-produs">250 lei</div>
+            <button type="button" class="btn comanda-produs"><i class="fas fa-cart-plus"></i>&nbsp Adauga</button>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 col-sm-6 produs">
+            <img class="imagine-produs" src="../images/produse/geaca.jpg" alt="First item">
+            <div class="nume-produs">Geaca</div>
+            <div class="pret-produs">220 lei</div>
+            <button type="button" class="btn comanda-produs"><i class="fas fa-cart-plus"></i>&nbsp Adauga</button>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 col-sm-6 produs">
+            <img class="imagine-produs" src="../images/produse/bocanci.jpg" alt="First item">
+            <div class="nume-produs">Ghete</div>
+            <div class="pret-produs">185 lei</div>
+            <button type="button" class="btn comanda-produs"><i class="fas fa-cart-plus"></i>&nbsp Adauga</button>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 col-sm-6 produs">
+            <img class="imagine-produs" src="../images/produse/smart_stop_disc.jpg" alt="First item">
+            <div class="nume-produs">Smart Stop Disc</div>
+            <div class="pret-produs">320 lei</div>
+            <button type="button" class="btn comanda-produs"><i class="fas fa-cart-plus"></i>&nbsp Adauga</button>
+          </div>
+
+  
+          <div class="col-lg-3 col-md-4 col-sm-6 produs">
+            <img class="imagine-produs" src="../images/produse/casca.jpg" alt="First item">
+            <div class="nume-produs">Casca</div>
+            <div class="pret-produs">160 lei</div>
+            <button type="button" class="btn comanda-produs"><i class="fas fa-cart-plus"></i>&nbsp Adauga</button>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 col-sm-6 produs">
+            <img class="imagine-produs" src="../images/produse/rucsac.jpg" alt="First item">
+            <div class="nume-produs">Rucsac</div>
+            <div class="pret-produs">235 lei</div>
+            <button type="button" class="btn comanda-produs"><i class="fas fa-cart-plus"></i>&nbsp Adauga</button>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 col-sm-6 produs">
+            <img class="imagine-produs" src="../images/produse/sosete.jpg" alt="First item">
+            <div class="nume-produs">Sosete</div>
+            <div class="pret-produs">35 lei</div>
+            <button type="button" class="btn comanda-produs"><i class="fas fa-cart-plus"></i>&nbsp Adauga</button>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 col-sm-6 produs">
+            <img class="imagine-produs" src="../images/produse/gantera.jpg" alt="First item">
+            <div class="nume-produs">Gantera</div>
+            <div class="pret-produs">80 lei</div>
+            <button type="button" class="btn comanda-produs"><i class="fas fa-cart-plus"></i>&nbsp Adauga</button>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 col-sm-6 produs">
+            <img class="imagine-produs" src="../images/produse/caciula.jpg" alt="First item">
+            <div class="nume-produs">Caciula</div>
+            <div class="pret-produs">20 lei</div>
+            <button type="button" class="btn comanda-produs"><i class="fas fa-cart-plus"></i>&nbsp Adauga</button>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 col-sm-6 produs">
+            <img class="imagine-produs" src="../images/produse/vesta.jpg" alt="First item">
+            <div class="nume-produs">Vesta</div>
+            <div class="pret-produs">90 lei</div>
+            <button type="button" class="btn comanda-produs"><i class="fas fa-cart-plus"></i>&nbsp Adauga</button>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 col-sm-6 produs">
+            <img class="imagine-produs" src="../images/produse/pantaloni.jpg" alt="First item">
+            <div class="nume-produs">Pantaloni</div>
+            <div class="pret-produs">75 lei</div>
+            <button type="button" class="btn comanda-produs"><i class="fas fa-cart-plus"></i>&nbsp Adauga</button>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 col-sm-6 produs">
+            <img class="imagine-produs" src="../images/produse/cizme.jpg" alt="First item">
+            <div class="nume-produs">Cizme</div>
+            <div class="pret-produs">140 lei</div>
+            <button type="button" class="btn comanda-produs"><i class="fas fa-cart-plus"></i>&nbsp Adauga</button>
+          </div>
+
+     
+          <div class="col-lg-3 col-md-4 col-sm-6 produs">
+            <img class="imagine-produs" src="../images/produse/saltea.jpg" alt="First item">
+            <div class="nume-produs">Saltea</div>
+            <div class="pret-produs">200 lei</div>
+            <button type="button" class="btn comanda-produs"><i class="fas fa-cart-plus"></i>&nbsp Adauga</button>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 col-sm-6 produs">
+            <img class="imagine-produs" src="../images/produse/geanta.jpg" alt="First item">
+            <div class="nume-produs">Geanta</div>
+            <div class="pret-produs">115 lei</div>
+            <button type="button" class="btn comanda-produs"><i class="fas fa-cart-plus"></i>&nbsp Adauga</button>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 col-sm-6 produs">
+            <img class="imagine-produs" src="../images/produse/cana_izoterma.jpg" alt="First item">
+            <div class="nume-produs">Cana Izoterma</div>
+            <div class="pret-produs">80 lei</div>
+            <button type="button" class="btn comanda-produs"><i class="fas fa-cart-plus"></i>&nbsp Adauga</button>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 col-sm-6 produs">
+            <img class="imagine-produs" src="../images/produse/manusi.jpg" alt="First item">
+            <div class="nume-produs">Manusi</div>
+            <div class="pret-produs">60 lei</div>
+            <button type="button" class="btn comanda-produs"><i class="fas fa-cart-plus"></i>&nbsp Adauga</button>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 col-sm-6 produs">
+            <img class="imagine-produs" src="../images/produse/papuci.jpg" alt="First item">
+            <div class="nume-produs">Papuci</div>
+            <div class="pret-produs">25 lei</div>
+            <button type="button" class="btn comanda-produs"><i class="fas fa-cart-plus"></i>&nbsp Adauga</button>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 col-sm-6 produs">
+            <img class="imagine-produs" src="../images/produse/ochelari_inot.jpg" alt="First item">
+            <div class="nume-produs">Ochelari Inot</div>
+            <div class="pret-produs">90 lei</div>
+            <button type="button" class="btn comanda-produs"><i class="fas fa-cart-plus"></i>&nbsp Adauga</button>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 col-sm-6 produs">
+            <img class="imagine-produs" src="../images/produse/termos.jpg" alt="First item">
+            <div class="nume-produs">Termos</div>
+            <div class="pret-produs">130 lei</div>
+            <button type="button" class="btn comanda-produs"><i class="fas fa-cart-plus"></i>&nbsp Adauga</button>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 col-sm-6 produs">
+            <img class="imagine-produs" src="../images/produse/lanterna.jpg" alt="First item">
+            <div class="nume-produs">Lantrna</div>
+            <div class="pret-produs">40 lei</div>
+            <button type="button" class="btn comanda-produs"><i class="fas fa-cart-plus"></i>&nbsp Adauga</button>
+          </div>
+        </div>
+
+      </section>
+
+    </div>
+
+  </body>
+
+  <footer>
+    <div>@Lixandru Liviu-Gabriel</div><br/>
+    <div>Acest website este o replica a site-ului <a href="https://www.decathlon.ro/" target="_blank">decathlon.ro</a> creata in scop educativ.</div>
+  </footer>
+</html>
