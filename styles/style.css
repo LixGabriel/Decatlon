@@ -765,6 +765,7 @@ footer {
  
   .cart-icon {
     font-size: 1.2em;
+    padding: 2% 0 0 0;
   }
   .shopping-cart-section{
     transform: scale(0.8);
