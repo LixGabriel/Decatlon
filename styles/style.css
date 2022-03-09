@@ -475,6 +475,7 @@ hr {
   border: 10px solid white;
   background-color: white;
   margin-bottom: 1em;
+  padding: 0.1%;
   transition: 0.2s;
 }
 .imagine-produs:hover {
